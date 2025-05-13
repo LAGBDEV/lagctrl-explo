@@ -1,0 +1,20 @@
+[package]
+name = "ipc-system"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+anyhow = "1.0"
+
+[[bin]]
+name = "ipc-system-app"
+path = "src/bin/app.rs"
+
+[[bin]]
+name = "ipc-system-child"
+path = "src/bin/child_app.rs"
+
+[[bin]]
+name = "cmdreg-example"
+path = "src/bin/command_registry_example.rs"

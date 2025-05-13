@@ -1,0 +1,16 @@
+[package]
+name = "ipc-tokio-example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+anyhow = "1.0"
+
+[[bin]]
+name = "ipc-tokio-app"
+path = "src/ipc_tokio_app.rs"
+
+[[bin]]
+name = "ipc-tokio-plugin"
+path = "src/ipc_tokio_plugin.rs"

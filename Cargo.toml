@@ -1,0 +1,5 @@
+[workspace]
+resolver = "2"
+members = [ "cli-inquire","ipc-example", "ipc-plugin-capnp", "ipc-plugin-tokio", "ipc-system", "ipc-tokio-example", "plugin-system-draft"]
+
+[workspace.dependencies]

@@ -1,0 +1,14 @@
+[package]
+name = "ipc-example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[bin]]
+name = "ipc-app"
+path = "src/ipc_app.rs"
+
+[[bin]]
+name = "ipc-plugin"
+path = "src/ipc_plugin.rs"
